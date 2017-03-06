@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.mehao.myapplication.LayoutContainer
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/top_view_layout"/>
+
+        <include layout="@layout/bottom_view_layout"/>
+
+    </com.example.mehao.myapplication.LayoutContainer>
+
+</RelativeLayout>
